@@ -1,0 +1,30 @@
+--> Extend :- It allows one selector to inherit styles of another selector.
+    -> cleaner and conside code
+
+--> function :- It allows us to run code over and over again when we call it.
+    syntax :
+    @function functionName(){
+
+    }
+
+--> predefined function
+    lighten
+    darken
+    transparentize
+    mix
+    -> https://sass-lang.com/documentation/values/functions
+
+--> Placeholder Selectors
+    We can define some templates using it and then we can use it by @extend at-rule whenever we want.
+    eg: 
+
+    %button-format {
+    padding:10px 20px;
+    border-radius:15px;
+    color:black;
+    }
+
+    .sub-button {
+    @extend %button-format;
+    background-color: lightpink
+    }

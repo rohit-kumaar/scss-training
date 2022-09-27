@@ -1,0 +1,37 @@
+.sub-button, .tol-button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: black; }
+
+.nav {
+  background-color: orange; }
+  .nav ul li {
+    list-style: none; }
+  .nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace; }
+    .nav a:hover {
+      color: orange;
+      background-color: royalblue; }
+
+.heading, .banner h1, .banner .footer h3, .footer .banner h3 {
+  color: rgba(255, 165, 0, 0.4);
+  font-size: 40px;
+  background-color: #996666;
+  text-align: center; }
+
+.banner h1:hover, .banner .footer h3:hover, .footer .banner h3:hover {
+  background-color: #004d00; }
+
+.banner p {
+  font-size: 40px; }
+
+.footer p {
+  font-size: 20px; }
+
+.sub-button {
+  background-color: lightpink; }
+
+.tol-button {
+  background-color: yellowgreen; }
