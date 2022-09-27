@@ -1,10 +1,10 @@
 {
-  "name": "sass_introduction",
+  "name": "scss",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass -o css scss/main.scss -w"
+    "start": "node-sass -o css scss/style.scss -w"
   },
   "keywords": [],
   "author": "",
