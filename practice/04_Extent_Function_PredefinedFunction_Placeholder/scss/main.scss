@@ -1,0 +1,46 @@
+$color-primary: orange;
+$color-secondary: gray;
+$color-teritary: royalblue;
+$font-lg: 40px;
+$font-md: 30px;
+$font-sm: 20px;
+
+.nav {
+  background-color: $color-primary;
+  ul li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    &:hover {
+      color: $color-primary;
+      background-color: $color-teritary;
+    }
+  }
+}
+
+@function fontSize($font: 10px) {
+  @return $font * 2;
+}
+
+.header {
+  color: $color-primary;
+  font-size: $font-lg;
+  background-color: $color-secondary;
+  text-align: center;
+}
+
+h1 {
+  @extend .header;
+  &:hover {
+    background-color: $color-teritary;
+  }
+}
+.banner p {
+  font-size: fontSize(30px);
+}
+.footer h3 {
+  @extend h1;
+}

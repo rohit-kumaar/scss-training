@@ -1,0 +1,25 @@
+-> npm init -y (package.json)
+npm install node-sass --g
+
+node-sass -o css scss/main.scss -w
+
+npm run watch
+-> Variables :- temp. memory location which hold data, It is a container that store reusable data values.
+$col-prm:color;
+-> Nesting
+-> It allows us to avoid write many lines of css
+-> easy to use
+-> shortcut of creating css rules
+-> Mixins :- It is a block of code , which groups bunch of reusable css styles.
+@mixin headingStyles{
+color:$color-secondary;
+text-align: center;
+}
+.banner h1{
+font-size: $font-lg;
+@include headingStyles;
+}
+-> FUnctions , placeholder selectors, import and particals
+-> We devlop A small app
+-> Advance Concepts
+-> We develop a small app
