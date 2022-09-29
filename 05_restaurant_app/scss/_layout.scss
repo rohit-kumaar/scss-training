@@ -1,0 +1,8 @@
+.logo {
+  font-size: 70px;
+  color: $color-primary;
+  width: 110px;
+  border: 3px solid $color-primary;
+  border-radius: 50%;
+  @include flexLayout;
+}

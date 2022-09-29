@@ -1,0 +1,12 @@
+{
+  "name": "05_folder_structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass -o src/css src/scss/style.scss -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

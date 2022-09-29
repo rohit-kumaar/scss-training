@@ -1,0 +1,157 @@
+/* ------------------- */
+/* Font sizes          */
+/* ------------------- */
+/* ------------------- */
+/* Font family         */
+/* ------------------- */
+/* ------------------- */
+/* Colors              */
+/* ------------------- */
+/* ------------------- */
+/* Font weight         */
+/* ------------------- */
+/* ------------------- */
+/* Font Path           */
+/* ------------------- */
+/* ------------------- */
+/* Image Path          */
+/* ------------------- */
+/* ------------------- */
+/* Convert px to rem   */
+/* ------------------- */
+/* ------------------- */
+/* Colors Start        */
+/* ------------------- */
+.bg-black {
+  background: black; }
+
+.bg-white {
+  background: white; }
+
+.bg-orange {
+  background: #e08e00; }
+
+.text-black {
+  color: black; }
+
+.text-white {
+  color: white; }
+
+.text-orange {
+  color: #e08e00; }
+
+/* ------------------- */
+/* Font weights Start  */
+/* ------------------- */
+.fw-400 {
+  font-weight: 400; }
+
+.fw-500 {
+  font-weight: 500; }
+
+.fw-600 {
+  font-weight: 600; }
+
+.fw-700 {
+  font-weight: 700; }
+
+.fw-800 {
+  font-weight: 800; }
+
+.fw-900 {
+  font-weight: 900; }
+
+/* ------------------- */
+/* Font sizes Start    */
+/* ------------------- */
+.fs-10 {
+  font-size: 10px; }
+
+.fs-11 {
+  font-size: 11px; }
+
+.fs-12 {
+  font-size: 12px; }
+
+.fs-13 {
+  font-size: 13px; }
+
+.fs-14 {
+  font-size: 14px; }
+
+.fs-15 {
+  font-size: 15px; }
+
+html {
+  box-sizing: border-box;
+  font-size: 16px; }
+
+body {
+  color: black;
+  background: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; }
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+figure,
+blockquote {
+  padding: 0;
+  margin: 0;
+  font-weight: 400; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+li {
+  list-style: none;
+  cursor: pointer; }
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto; }
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  height: 60px; }
+
+.container {
+  max-width: 100%;
+  padding-inline: 16px;
+  margin-inline: auto;
+  border: 2px solid red; }
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/burger-food-bokeh-blur.jpg) no-repeat center center/cover; }
+  .hero__content {
+    position: relative;
+    top: 40%;
+    left: 34%;
+    width: 40%;
+    transform: translate(-50%, -50%); }
+    .hero__content h1 {
+      font-size: 45px;
+      width: fit-content;
+      margin-bottom: 5px; }

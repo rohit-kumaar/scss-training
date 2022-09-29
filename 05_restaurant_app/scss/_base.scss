@@ -1,0 +1,14 @@
+$color-dark: #262626;
+$color-primary: orange;
+@mixin flexLayout {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: $color-dark;
+}
