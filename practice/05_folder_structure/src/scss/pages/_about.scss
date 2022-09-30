@@ -1,0 +1,25 @@
+.about,
+.contact,
+.help {
+  @include flex;
+  min-height: 500px;
+
+  div {
+    max-width: 70%;
+
+    h2 {
+      font-size: 50px;
+      padding-bottom: 30px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+}
+
+.about {
+  background: rgba($orange, 0.3);
+}

@@ -19,6 +19,10 @@
 /* ------------------- */
 /* Convert px to rem   */
 /* ------------------- */
+.header__left {
+  display: grid;
+  place-items: center; }
+
 /* ------------------- */
 /* Colors Start        */
 /* ------------------- */
@@ -84,7 +88,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: 16px; }
+  font-size: 16px;
+  scroll-behavior: smooth; }
 
 body {
   color: black;
@@ -133,13 +138,32 @@ img {
   right: 0;
   left: 0;
   max-width: 100%;
-  height: 60px; }
+  height: 60px;
+  background: rgba(0, 0, 0, 0.3); }
+  .header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px; }
+  .header__left {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 33px;
+    cursor: pointer; }
+  .header__right {
+    width: 30%; }
+    .header__right ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around; }
+      .header__right ul li a:hover {
+        color: #e08e00; }
 
 .container {
-  max-width: 100%;
+  width: 100%;
   padding-inline: 16px;
-  margin-inline: auto;
-  border: 2px solid red; }
+  margin-inline: auto; }
 
 .hero {
   width: 100%;
@@ -155,3 +179,32 @@ img {
       font-size: 45px;
       width: fit-content;
       margin-bottom: 5px; }
+
+.about,
+.contact,
+.help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px; }
+  .about div,
+  .contact div,
+  .help div {
+    max-width: 70%; }
+    .about div h2,
+    .contact div h2,
+    .help div h2 {
+      font-size: 50px;
+      padding-bottom: 30px;
+      text-align: center;
+      text-transform: uppercase; }
+    .about div p,
+    .contact div p,
+    .help div p {
+      text-align: center; }
+
+.about {
+  background: rgba(224, 142, 0, 0.3); }
+
+.contact {
+  background: rgba(0, 0, 0, 0.3); }

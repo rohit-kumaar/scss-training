@@ -1,19 +1,34 @@
 {
     "cSpell.ignoreWords": [
         "Laboriosam",
+        "Obcaecati",
         "adipisicing",
         "amet",
+        "architecto",
         "assumenda",
         "bokeh",
         "consectetur",
+        "consequuntur",
+        "dolore",
         "eius",
         "elit",
+        "incidunt",
+        "ipsa",
+        "labore",
+        "laudantium",
+        "magni",
+        "molestiae",
         "reiciendis",
         "repellendus",
         "repudiandae",
-        "ullam"
+        "temporibus",
+        "ullam",
+        "vero",
+        "voluptas",
+        "voluptatibus"
     ],
     "cSpell.words": [
         "WALA"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
