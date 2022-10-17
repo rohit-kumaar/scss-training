@@ -1,0 +1,11 @@
+-> Scss Datatypes :- 7 types of datatype 
+   -> Numbers 
+   -> Strings 
+   -> Colors 
+   -> Lists 
+   -> Maps 
+   -> Booleans 
+   -> Null 
+
+   --> Sass Interpolation 
+     

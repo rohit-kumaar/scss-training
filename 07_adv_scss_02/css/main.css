@@ -1,0 +1,35 @@
+.paragraph-2 {
+  background-color: green; }
+
+.paragraph-4 {
+  background-color: orange; }
+
+.paragraph-pink {
+  background-color: pink; }
+
+.paragraph-orange {
+  background-color: orange; }
+
+.paragraph-purple {
+  background-color: purple; }
+
+.paragraph-cyan {
+  background-color: cyan; }
+
+h1 {
+  font-size: 40px; }
+
+.length-0 {
+  width: 0px; }
+
+.length-1 {
+  width: 10px; }
+
+.length-2 {
+  width: 20px; }
+
+.length-3 {
+  width: 30px; }
+
+.length-4 {
+  width: 40px; }

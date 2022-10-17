@@ -1,0 +1,31 @@
+-> Scss Datatypes :- 7 types of datatype 
+   -> Numbers 
+   -> Strings 
+   -> Colors 
+   -> Lists 
+   -> Maps 
+   -> Booleans 
+   -> Null 
+
+   --> Sass Interpolation 
+     for loop  :
+     $colors:(
+    1:red,
+    2:green,
+    3:blue,
+    4:orange
+);
+@for $i from 1 through 4{
+    .paragraph-#{$i}{
+          background-color: map-get($colors , $i );
+    }
+}
+    -> each loop 
+     $colorsList: pink orange purple cyan;
+@each $color in $colorsList {
+    .paragraph-#{$color}{
+        background-color: #{$color};
+    }
+}
+  -> if directive 
+    
